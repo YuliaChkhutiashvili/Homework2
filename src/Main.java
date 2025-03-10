@@ -1,4 +1,3 @@
-import java.net.SocketOption;
 /*
 //Davaleba1
 // 1 example
@@ -53,13 +52,10 @@ public class Main {
 
 public class Main {
     public static void main(String[] args) {
-        numberChecker(9);
-    }
-    static void numberChecker ( int start){
-        while (start>0){
-            System.out.println(start);
-            start*=3;
+        for (int i = 9; i >= 9; i = i * 3) {
+            System.out.println(i*3*3);
             break;
         }
-    }
+        }
 }
+
